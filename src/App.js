@@ -1,21 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import Home from './components/Navbar/NavigationLinks/Home';
+import About from './components/Navbar/NavigationLinks/About';
+import Contact from './components/Navbar/NavigationLinks/Contact';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <Router>
+        <Switch>     
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
