@@ -1,0 +1,12 @@
+h5, p::first-letter{
+    text-transform: uppercase;
+}
+.post{
+    margin: 20px;
+}
+.postId{
+    color: grey;
+}
+.loading{
+    text-align: center;
+}

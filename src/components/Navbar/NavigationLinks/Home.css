@@ -1,0 +1,8 @@
+.allUsers, .allPosts{
+    margin: 50px;
+}
+@media screen and (max-width: 810px) {
+    .allUsers, .allPosts{
+        margin: 20px;
+    }
+}
