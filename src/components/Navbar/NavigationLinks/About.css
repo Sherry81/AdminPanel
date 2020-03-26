@@ -1,0 +1,19 @@
+
+.aboutApp{
+    display: flex;
+    min-height: 76vh;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-top: 2%;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+@media screen and (max-width: 810px) {
+    .aboutApp{
+    padding-left: 5%;
+} 
+}

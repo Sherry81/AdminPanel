@@ -3,10 +3,42 @@ h5, p::first-letter{
 }
 .post{
     margin: 20px;
+    width: 80%;
 }
 .postId{
     color: grey;
 }
 .loading{
     text-align: center;
+}
+.post-body{
+    padding-bottom: 0px;
+}
+.post-body, p{
+    margin-bottom: 0px;
+}
+.postById{
+    font-size: 10px;
+    padding-left: 10px;
+}
+.postTitle{
+    font-size: 35px;
+}
+.posts{
+    font-family: 'Baloo Da 2', cursive;
+    margin-bottom: 20px;
+    margin-left: 12%;
+    position: relative;
+}
+.postsComponent{
+    position: relative;
+    min-height: 100%;
+}
+@media screen and (max-width: 810px) {
+    .posts{
+        margin-left: 0px;
+    }
+    .postTitle{
+        font-size: 20px;
+    }
 }

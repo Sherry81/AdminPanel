@@ -1,7 +1,40 @@
-.heading{
+.loading{
     text-align: center;
-    margin: 20px;
 }
-.loading, .addUserBtn{
+.modal-title button span, .close{
+    font-size: 25px;
+}
+.addUser{
     text-align: center;
+    margin-bottom: 10px;
+}
+.viewBtn, .addUserBtn{
+    font-family: 'Baloo Da 2', cursive !important;
+    font-size: 15px !important;
+}
+.addUserBtn{
+    width: 30px;
+    height: 30px
+}
+.users{
+    margin-left: 12%;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.usersComponent{
+    position: relative;
+}
+.usersHead{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 810px) {
+    .users{
+        margin-left: 0px;
+    }
+    .usersHead{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
 }

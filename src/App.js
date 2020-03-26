@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Home from './components/Navbar/NavigationLinks/Home';
 import About from './components/Navbar/NavigationLinks/About';
@@ -13,7 +13,9 @@ import {
   Route
 } from "react-router-dom";
 
-function App() {
+class App extends Component {
+
+render(){
   return (
     <div className="App">
       <Router>
@@ -27,7 +29,6 @@ function App() {
           <Route path="/posts">
             <Posts />
           </Route>
-          
           <Route exact path="/users/:id" render={(props) => <SingleUser  {...props} />}></Route>
           <Route path="/users">
             <Users />
@@ -39,6 +40,7 @@ function App() {
       </Router>
     </div>
   );
+}
 }
 
 export default App;
