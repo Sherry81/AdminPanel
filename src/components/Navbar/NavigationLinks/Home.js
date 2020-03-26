@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavigationBar from '../NavigationBar';
 import { Link } from "react-router-dom";
 import '../NavigationLinks/Home.css';
-import Footer from '../../Footer';
+import Footer from '../../Footer/Footer';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 
 class Home extends Component {
@@ -14,12 +14,12 @@ class Home extends Component {
                     <div className="welcome">
                         <h2 className="welcomeHead">Welcome to the app</h2>
                     </div>
-                    <div className="aboutApp">
+                    <div className="aboutAppInfo">
                         <h2 className="about">About the app</h2>
-                        <p>
+                        <p style={{'marginBottom': '0px'}}>
                             - You can view all your users and their posts by navigating from the sidebar
                         </p>
-                        <p>
+                        <p style={{'paddingTop': '0px', 'marginTop': '0px'}}>
                             - You can view every individual user details
                         </p>
                         <Container className="btnContainer">

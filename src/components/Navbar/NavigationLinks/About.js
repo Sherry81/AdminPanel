@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NavigationBar from '../NavigationBar';
-import Footer from '../../Footer';
+import Footer from '../../Footer/Footer';
 import './About.css'
 
 class About extends Component {

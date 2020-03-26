@@ -18,7 +18,7 @@
     padding-bottom: 16%;
     letter-spacing: 1px;
 }
-.aboutApp{
+.aboutAppInfo{
     padding-left: 20%;
     padding-top: 2%;
     margin-bottom: 20px;
@@ -63,5 +63,32 @@ p{
     }
     .btnContainer{
         width: 100% !important;
+    }
+    .aboutAppInfo{
+        padding-left: 5%;
+    } 
+}
+@media screen and (max-width: 810px) and (min-height: 660px) {
+    .welcomeHead{
+        padding-top: 32%;
+        padding-bottom: 32%;
+    }
+}
+@media screen and (max-width: 810px) and (min-height: 700px) {
+    .welcomeHead{
+        padding-top: 37%;
+        padding-bottom: 37%;
+    }
+}
+@media screen and (max-width: 810px) and (min-height: 800px) {
+    .welcomeHead{
+        padding-top: 51%;
+        padding-bottom: 51%;
+    }
+}
+@media screen and (max-width: 810px) and (min-height: 815px) {
+    .welcomeHead{
+        padding-top: 49%;
+        padding-bottom: 48%;
     }
 }

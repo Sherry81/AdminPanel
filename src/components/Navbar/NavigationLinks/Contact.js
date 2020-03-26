@@ -1,6 +1,6 @@
 import React from 'react';
 import NavigationBar from '../NavigationBar';
-import Footer from '../../Footer';
+import Footer from '../../Footer/Footer';
 import './Contact.css'
 
 function Contact() {
@@ -8,7 +8,7 @@ function Contact() {
     <div>
       <NavigationBar/>
       <div className="contact">
-        <h2>Contact: 0332-2079206</h2>
+        <h2 className="contactHead">Contact: 0332-2079206</h2>
       </div>
       <Footer/>
     </div>

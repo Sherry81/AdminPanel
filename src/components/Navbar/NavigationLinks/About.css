@@ -17,3 +17,23 @@ p{
     padding-left: 5%;
 } 
 }
+@media screen and (max-width: 810px) and (min-height: 700px) {
+    .aboutApp{
+        min-height: 78vh
+    }
+}
+@media screen and (max-width: 810px) and (max-height: 600px) {
+    .aboutApp{
+        min-height: 72vh
+    }
+}
+@media screen and (max-width: 810px) and (min-height: 800px) {
+    .aboutApp{
+        min-height: 82vh
+    }
+}
+@media screen and (max-width: 810px) and (min-height: 815px) {
+    .aboutApp{
+        min-height: 81vh;
+    }
+}

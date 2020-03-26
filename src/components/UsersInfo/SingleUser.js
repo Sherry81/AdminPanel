@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
-import NavigationBar from './Navbar/NavigationBar';
-import '../SingleUser.css'
+import NavigationBar from '../Navbar/NavigationBar';
+import './SingleUser.css'
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faUser, faMapMarker, faHome } from '@fortawesome/free-solid-svg-icons'
-class SingleUser extends Component {
 
+class SingleUser extends Component {
   constructor(props){
     super(props)
     console.log(props)
@@ -30,13 +30,13 @@ class SingleUser extends Component {
       <div>
         <NavigationBar/>
         <div className="singleUser">
-          {!this.state.singleUser.name ? <div style={{'textAlign': 'center'}}>Loading...</div> :
+          {!this.state.singleUser.name ? <div className="loading">Loading...</div> :
           <Card>
             <Card.Body>
             <Container className="container">
             <Row>
               <Col>
-                <h1 style={{'margin': '0px'}}>{this.state.singleUser.name}</h1>
+                <h1 className="singleuserName">{this.state.singleUser.name}</h1>
               </Col>
             </Row> 
             <Row style={{'marginBottom': '5px'}}>

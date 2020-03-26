@@ -26,6 +26,8 @@
     position: relative;
 }
 .usersHead{
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -36,5 +38,8 @@
     .usersHead{
         margin-top: 0px;
         margin-bottom: 20px;
+    }
+    .addUser{
+        margin-top: -15px;
     }
 }

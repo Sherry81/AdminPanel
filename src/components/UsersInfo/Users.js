@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Table, Button, Modal, Form } from 'react-bootstrap';
 import Axios from 'axios';
 import { Link } from "react-router-dom";
-import NavigationBar from './Navbar/NavigationBar';
-import Sidebar from './Navbar/Sidebar';
-import '../Users.css'
-import Footer from './Footer';
+import NavigationBar from '../Navbar/NavigationBar';
+import Sidebar from '../Navbar/Sidebar';
+import './Users.css'
+import Footer from '../Footer/Footer';
 
 class Users extends Component {
     constructor(props){

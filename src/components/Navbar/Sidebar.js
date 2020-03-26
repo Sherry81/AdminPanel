@@ -24,7 +24,7 @@ class Sidebar extends Component{
     render(){
         return(
             <div>
-            <div ref={this.mySidebar} class="sidenav" id="sidebarWeb">
+            <div ref={this.mySidebar} className="sidenav" id="sidebarWeb">
                 <h3 className="head"><Link className="head" to="/">Admin Panel</Link></h3>
                 <Link className="link" to="/users">Users</Link>
                 <Link className="link" to="/posts">Posts</Link>

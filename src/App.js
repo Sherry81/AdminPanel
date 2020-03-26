@@ -3,9 +3,9 @@ import './App.css';
 import Home from './components/Navbar/NavigationLinks/Home';
 import About from './components/Navbar/NavigationLinks/About';
 import Contact from './components/Navbar/NavigationLinks/Contact';
-import SingleUser from './components/SingleUser';
-import Users from './components/Users';
-import Posts from './components/Posts';
+import SingleUser from './components/UsersInfo/SingleUser';
+import Users from './components/UsersInfo/Users';
+import Posts from './components/UserPosts/Posts'
 
 import {
   BrowserRouter as Router,

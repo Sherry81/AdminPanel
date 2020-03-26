@@ -1,6 +1,7 @@
 .info{
     font-size: 20px;
     margin-left: 5px;
+    font-family: 'Baloo Da 2', cursive;
 }
 .address{
     margin-left: 5px;
@@ -8,9 +9,11 @@
     color: grey;
     font-style: italic;
     margin-bottom: 15px;
+    font-family: 'Baloo Da 2', cursive;
 }
 h2{
     margin-bottom: 0px;
+    font-family: 'Baloo Da 2', cursive;
 }
 .container{
     margin-top: 10px;
@@ -21,8 +24,18 @@ h2{
 .singleUser{
     margin-left: 11%;
 }
+.loading{
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+}
+.singleuserName{
+    margin: 0px;
+}
 @media screen and (max-width: 810px) {
     .singleUser{
         margin-left: 0px;
+    }
+    .singleuserName{
+        font-size: 34px;
     }
 }

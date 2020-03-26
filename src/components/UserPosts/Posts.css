@@ -1,3 +1,19 @@
+.posts{
+
+    margin-bottom: 20px;
+    margin-left: 12%;
+    position: relative;
+}
+.postsComponent{
+    position: relative;
+    min-height: 100%;
+}
+.postsHead{
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+}
 h5, p::first-letter{
     text-transform: uppercase;
 }
@@ -12,6 +28,7 @@ h5, p::first-letter{
     text-align: center;
 }
 .post-body{
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 .post-body, p{
@@ -22,17 +39,14 @@ h5, p::first-letter{
     padding-left: 10px;
 }
 .postTitle{
-    font-size: 35px;
-}
-.posts{
     font-family: 'Baloo Da 2', cursive;
-    margin-bottom: 20px;
-    margin-left: 12%;
-    position: relative;
+    font-size: 35px;
+    padding-top: 30px;
 }
-.postsComponent{
-    position: relative;
-    min-height: 100%;
+.paginate{
+    background-color: white;
+    color: rgb(0, 162, 255);
+    border: 0px;
 }
 @media screen and (max-width: 810px) {
     .posts{
@@ -40,5 +54,8 @@ h5, p::first-letter{
     }
     .postTitle{
         font-size: 20px;
+    }
+    .postsHead{
+        margin-top: -20px;
     }
 }
