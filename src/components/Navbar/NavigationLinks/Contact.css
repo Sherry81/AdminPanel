@@ -3,7 +3,7 @@
     font-family: 'Baloo Da 2', cursive;
     margin-left: 12%;
     display: flex;
-    min-height: 79vh;
+    min-height: 80vh;
     flex-direction: column;
 }
 .contactHead{
